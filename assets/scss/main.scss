@@ -1,3 +1,4 @@
+@import"./mixin";
 * {
   margin: 0;
   padding: 0;
@@ -127,6 +128,9 @@
           transform: skewX(25deg);
         }
       }
+    }
+    .btn-three{
+      @include btn-all (#ff2020,#4a4a4b);
     }
   }
 }
